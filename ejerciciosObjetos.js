@@ -1,9 +1,4 @@
-var array=[4,4,5,12];
-var num=9;
-var arrayNum=[4,4,5,12,num];
-var respuesta= arrayNum.reduce(function(valorAnterior, valorActual, indice, vector){
-  return valorAnterior*valorActual;
-  });
+
 //ejercicio 1 de objetos
 function rectangulo(base, altura){
   this.base= base;
